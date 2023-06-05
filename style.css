@@ -277,3 +277,83 @@ showing */
 }
 
 /* exercise 12 done */
+
+.ex-13-button:hover > .ex-13-top-white {
+    animation-name: anim3;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes anim3 {
+
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    20%{
+        top: -10px;
+        left: 72%;
+    }
+
+    40%{
+        top: 50px;
+        left: 72%;
+    }
+
+    60%{
+        top: 50px;
+        left: -10px;
+    }
+
+    80%{
+        top: -10px;
+        left: -10px;
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+}
+
+.ex-13-button:hover > .ex-13-bottom-white {
+    animation-name: anim4;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes anim4 {
+
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    20%{
+        bottom: -10px;
+        right: 72%;
+    }
+
+    40%{
+        bottom: 50px;
+        right: 72%;
+    }
+
+    60%{
+        bottom: 50px;
+        right: -10px;
+    }
+
+    80%{
+        bottom: -10px;
+        right: -10px;
+    }
+
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+}
