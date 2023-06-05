@@ -9,19 +9,30 @@
     background-color: red;
 }
 
-
 /* exercise 1 done */
-
-
-
-
 
 
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
+    border: none;
+    transition: 2s;
 }
+
+.ex-2-square:active {
+    width: 100%;
+}
+
+/* exercise 2 done */
+
+
+
+
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
