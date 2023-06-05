@@ -111,26 +111,91 @@ showing */
 
 .ex-8-img:hover {
     border-radius: 20px;
-    filter: grayscale(70%) blur(1px);
-    filter: blur(none);
+    filter:  grayscale(70%) blur(1px);
 }
 
-
-
-
-
-
+/* exercise 8 STILL NOT DONE */
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 2s;
 }
+
+.ex-9-img:hover {
+    transform: scale(1.5);
+    border-radius: 25px;
+    filter: grayscale(50%);
+}
+
+/* exercise 9 STILL THE SAME ISSUE AS 8 */
+
+
 .ex-10-icon {
     font-size: 60px;
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
+
+@keyframes rotate {
+
+    0% {
+        rotate: 0deg;
+    }
+
+    50% {
+        rotate: -180deg;
+
+    }
+
+    100% {
+        rotate : -360deg;
+    }
+}
+
+/* exercise 10 done */
+
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    animation-name: rotate2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate2 {
+
+    0% {
+        rotate: 0deg;
+    }
+
+    30% {
+        rotate: 100deg;
+
+    }
+
+    60% {
+        rotate: 200deg;
+    }
+
+    90% {
+        rotate: 300deg;
+    }
+
+    100% {
+        rotate : 0deg;
+    }
+}
+
+/* exercise 11 done */
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
