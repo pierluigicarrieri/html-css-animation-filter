@@ -104,6 +104,20 @@ margins */
 the one of ex-6) because the original was not
 showing */
 
+.ex-8-img {
+    filter: none;
+    transition: 3s;
+}
+
+.ex-8-img:hover {
+    border-radius: 20px;
+    filter: grayscale(70%) blur(1px);
+    filter: blur(none);
+}
+
+
+
+
 
 
 
