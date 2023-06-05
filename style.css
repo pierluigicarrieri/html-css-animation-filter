@@ -26,18 +26,28 @@
 
 /* exercise 2 done */
 
-
-
-
-
-
-
-
 .ex-3-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 0.4s ease-out 0.5s;
 }
+
+.ex-3-square:hover {
+    border-radius: 50%;
+    transition: 0.4s ease-out 0s;
+}
+
+/* exercise 3 done, used stack overflow 
+(https://stackoverflow.com/questions/5921073
+/different-css-transition-delays-for-hover-
+and-mouseout */
+
+
+
+
+
+
 .ex-4-square {
     width: 100px;
     height: 100px;
